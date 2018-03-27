@@ -7,7 +7,7 @@
   </head>
   <body>
 
-      <div id='app'>
+      <div id='app' class = 'center'>
 
         <div id='headers'>
           <!-- Title and subtitles! -->
@@ -18,26 +18,26 @@
         <div id='main'>
           <div id='input-parent'>
             <!-- Player's guess input, and submit button -->
-            <input type = "number" placeholder="#"
+            <input id = 'player-input' class = 'center' type = "number" placeholder="#"
              maxlength="3" autofocus = autofocus>
-            <button>Submit</button>
+            <button id = 'submit'>Submit</button>
           </div>
 
           <div id='guesses'>
             <!-- unordered list of guesses -->
-            <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
+            <ul id = 'guess-list' >
+                <li class = 'guess'>-</li>
+                <li class = 'guess'>-</li>
+                <li class = 'guess'>-</li>
+                <li class = 'guess'>-</li>
+                <li class = 'guess'>-</li>
             </ul>
           </div>
 
           <div id="menu-btns">
             <!-- reset and hint buttons -->
-            <button>Reset</button>
-            <button>Hint</button>
+            <button id = 'reset'>Reset</button>
+            <button id = 'hint'>Hint</button>
           </div>
         </div>
       </div>
