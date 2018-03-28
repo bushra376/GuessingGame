@@ -2,11 +2,13 @@
 <html lang="en">
   <head>
     <title>Guessing Game</title>
+    <link rel = "stylesheet" type="text/css" href= "bootstrap.css">
     <link rel = "stylesheet" type="text/css" href = "style.css">
+    
 
   </head>
   <body>
-
+    <div class = 'container'>
       <div id='app' class = 'center'>
 
         <div id='headers'>
@@ -19,8 +21,8 @@
           <div id='input-parent'>
             <!-- Player's guess input, and submit button -->
             <input id = 'player-input' class = 'center' type = "number" placeholder="#"
-             maxlength="3" autofocus = autofocus>
-            <button id = 'submit'>Submit</button>
+             maxlength="3" autofocus = autofocus>            
+             <button class='btn btn-success' id = 'submit'>Submit</button>
           </div>
 
           <div id='guesses'>
@@ -36,25 +38,26 @@
 
           <div id="menu-btns">
             <!-- reset and hint buttons -->
-            <button id = 'reset'>Reset</button>
-            <button id = 'hint'>Hint</button>
+            <button class = "btn btn-primary" id = 'reset'>Reset</button>
+            <button class = "btn btn-info" id = 'hint'>Hint</button>
           </div>
         </div>
       </div>
+    </div>
 
 
 
     <div id='footer'>
-        <div>
-          <div class=''>
+        <div class = "row">
+          <div class='col-sm-4'>
             <img src='fa-logo@2x_preview.png'></img>
           </div>
 
-          <div class=''>
+          <div class='col-sm-4'>
             <h4>Project by YOUR NAME HERE</h4>
           </div>
 
-          <div class=''>
+          <div class='col-sm-4'>
             <img src='grace_hopper_academy_preview.png'></img>
           </div>
 
