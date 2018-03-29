@@ -1,6 +1,27 @@
 html {
     box-sizing: 'border-box'
   }
+
+#app{
+  width: 65%;
+  margin: 50px auto;
+  /* background-color: rgba(30, 30, 30, 0.4); */
+  background: linear-gradient(rgba(45,45,45,0.4),rgba(95, 95, 95, 0.2));
+  box-shadow: 0px 0px 30px;
+}
+
+body{
+  background-image: url(https://img00.deviantart.net/66d2/i/2016/274/2/c/cipher_numbers_background_by_deming9120-dajkbkl.jpg);
+  /* opacity: 0.5; */
+  background-color: #cccccc;
+}
+
+#headers{
+  font-family: "Times New Roman", Times, serif;
+  color: whitesmoke;
+  text-shadow: 2px 2px 18px black;
+}
+
 .center {
     text-align: center;
   }
@@ -8,17 +29,42 @@ html {
 #input-parent {
     display: flex;
     justify-content: center;
-    /* width: 160px; */
-    /* margin-left: auto;
-    margin-right: auto; */
-    /* margin: 0 auto 0 auto;  (top right bottom left) */
     margin: 0 auto;
+    position: relative;
+ }
+
+ #player-input{
+  width: 160px;
+  height: 160px;
+  /* border-radius: 100px 100px 100px 100px; */
+  border-radius: 50%;
+  font-size: 60px;
+  background-color: whitesmoke;
+  border: 1px solid whitesmoke;
+  box-shadow: 5px 5px;
  }
 
  #submit{
    margin-left: 10px;
-     /* margin: 10px 0; */
-    /* padding: 10px 10px; */
+   /* font-size: 20px; */
+   width: 60px;
+   height: 60px;
+   border-radius: 50%;
+   position: relative;
+   top: 95px;
+   right: 60px;
+ }
+
+ .guess{
+  display: inline-block;
+  border: 3px solid black;
+  border-radius: 20px;
+  padding: 10px 50px;
+  margin: 20px 0;
+  font-size: 70px;
+  font-weight: bold;
+  background-color: whitesmoke;
+  box-shadow: 5px 5px;
  }
 
 ul {
@@ -32,10 +78,21 @@ img {
     height: 100px;
   }
 
+#menu-btns{
+  display: flex;
+  justify-content: center;
+}
+
+#reset{
+  margin-left: -50px;
+  margin-right: 10px;
+}
+
 #footer {
       width: 100%;
       border-top: solid 2px black;
       background-color: white;
+      /* color: white; */
       position: fixed;
       bottom: 0;
   }
