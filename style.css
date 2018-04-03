@@ -17,7 +17,8 @@ body{
 }
 
 #headers{
-  font-family: "Times New Roman", Times, serif;
+  /* font-family: "Times New Roman", Times, serif; */
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
   color: whitesmoke;
   text-shadow: 2px 2px 18px black;
 }
@@ -38,6 +39,7 @@ body{
   height: 160px;
   /* border-radius: 100px 100px 100px 100px; */
   border-radius: 50%;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
   font-size: 60px;
   background-color: whitesmoke;
   border: 1px solid whitesmoke;
@@ -59,9 +61,9 @@ body{
   display: inline-block;
   border: 3px solid black;
   border-radius: 20px;
-  padding: 10px 50px;
+  padding: 30px 50px;
   margin: 20px 0;
-  font-size: 70px;
+  font-size: 30px;
   font-weight: bold;
   background-color: whitesmoke;
   box-shadow: 5px 5px;
@@ -69,6 +71,7 @@ body{
 
 ul {
      list-style: none;
+     font-family: "Comic Sans MS", "Comic Sans", cursive;
      padding: 0;     
   }
 
