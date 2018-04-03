@@ -29,7 +29,6 @@ function Game(){
     this.playersGuess = null;
     this.pastGuesses = [];
     this.winningNumber = generateWinningNumber();
-    console.log("Wining number is:", this.winningNumber);
 }
 
 Game.prototype.difference = function(){
